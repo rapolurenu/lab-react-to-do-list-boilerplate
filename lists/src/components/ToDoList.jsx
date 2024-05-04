@@ -28,7 +28,7 @@ function ToDoList() {
                 type="text" 
                 value={inputValue} 
                 onChange={(e) => setInputValue(e.target.value)} 
-                placeholder="Enter text" 
+                placeholder="Enter task" 
             />
             <button onClick={addTodo}>Add</button>
             <ul>
