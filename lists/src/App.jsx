@@ -1,15 +1,13 @@
-import './App.css'
-// eslint-disable-next-line no-unused-vars
-import dolists from './components/dolists'
-
-
+import React from 'react';
+import './App.css';
+import ToDoList from './components/ToDoList';
 
 function App() {
     return (
-        <div>
-            <dolists />
+        <div className="App">
+            <ToDoList />
         </div>
-    )
+    );
 }
 
-export default App
+export default App;
